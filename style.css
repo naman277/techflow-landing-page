@@ -1,0 +1,335 @@
+        * {
+            padding: 0%;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            box-sizing: border-box;
+        }
+
+        .header {
+            padding-right: 1rem;
+            background-color: #f9fafb;
+            position: fixed;
+            width: 100%;
+                box-shadow: 0 8px 6px -8px rgb(227, 227, 227);
+
+            
+        }
+
+        ul {
+            overflow: hidden;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            float: right;
+            
+        }
+        
+        ul li a {
+            padding: 10px;
+            text-decoration: none;
+            display: block;
+            color: rgb(36, 1, 98);
+            padding-top: 12px;
+            padding-bottom: 12px;
+        }
+
+        .navitem {
+            display: none;
+        }
+
+        .navitem:hover {
+            background-color: #f1efef;
+        }
+
+        #logo {
+            font-family: arial;
+            font-size: 20px;
+            padding-left: 10vw;
+        }
+
+        .first-page {
+            text-align: center;
+            background-image: linear-gradient(to bottom right, #677be6, #7e4cb6);
+            padding: 3rem;
+            color: white;
+            padding-top: 6rem;
+        }
+
+        #heading {
+            font-weight: bolder;
+            font-size: 2.7rem;
+            margin-bottom: 1rem;
+            letter-spacing: -2px;
+        }
+
+        #tagline {
+            margin-bottom: 2.5rem;
+            font-size: 1rem;
+        }
+        .first-page-buttons{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            row-gap: 1rem;
+            
+        }
+        .first-page-button {
+            padding: 0.8rem;
+            border: 2px solid;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0rem 0.5rem;
+        }
+
+        #get-started {
+            background-color: white;
+            color: #3455ec;
+            border-color: white;
+        }
+
+        #learn-more {
+            color: white;
+        }
+
+        #get-started:hover {
+            border-color: rgba(256, 256, 256, 0.1);
+            background-color: rgba(256, 256, 256, 0.7);
+        }
+
+        #learn-more:hover {
+            border-color: rgba(256, 256, 256, 0.1);
+            background-color: rgba(256, 256, 256, 0.7);
+            color: #3455ec;
+        }
+        .second-page{
+            background-color: #f9fafb;
+        }
+        .fourth-page{
+            background-color: #f9fafb;
+
+        }
+        .second-headline {
+            text-align: center;
+            padding: 3rem;
+            padding-bottom: 1rem;
+        }
+        .third-headline{
+            text-align: center;
+            padding: 3rem;
+            padding-bottom: 1rem;
+        }
+        .fourth-headline{
+            text-align: center;
+            padding: 3rem;
+            padding-bottom: 1rem;
+        }
+        .third-headline h1{
+            line-height: 4rem;
+            padding-bottom: 1rem; 
+            font-size:2.5rem
+        }
+        .fourth-headline h1{
+            line-height: 4rem;
+            padding-bottom: 1rem; 
+            font-size:2.5rem
+        }
+        .second-headline h1 {
+            line-height: 4rem;
+            padding-bottom: 1rem; 
+            font-size:2.5rem
+        }
+
+        .second-page-cards {
+            padding: 4rem;
+            display: flex;
+            padding-top: 0;
+            justify-content: space-evenly;
+            align-content: space-evenly;
+            gap: 2rem;
+            row-gap: 3rem;
+            flex-wrap: wrap;
+        }
+
+        .third-page-cards{
+            display: grid;
+            grid-template-columns: 100%;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+            padding: 1rem 4rem 4rem 4rem;
+            row-gap: 2rem;
+            padding-top: 0;
+        }
+        .third-individual-card{
+            border-left: 0.25rem solid #1b58ea;
+            display: grid;
+            background-color: #f9fafb;
+            grid-template-columns: 3fr 7fr;
+            width: 20rem;
+            gap: 1.5rem;
+            justify-self: center;
+            border-radius: 0.7rem;
+        }
+        .third-individual-card h2{
+            align-self: center;
+            padding: 1rem;
+            font-size: 1rem;
+            color: #1b58ea;
+        }
+        .third-individual-card p{
+            align-self: center;
+            font-size: 0.8rem;
+            color: rgba(0, 0, 0, 0.7);
+        }
+        .second-individual-card {
+            box-shadow: 0px 0px 5px lightgray;
+            padding: 2rem;
+            width: 20rem;
+            border-radius: 1rem;
+        }
+
+        .second-individual-card span {
+            padding: 1rem;
+            border-radius: 1rem;
+            background-image: linear-gradient(to bottom right, lightblue, lightgreen);
+        }
+
+        .second-individual-card h2 {
+            padding: 1rem;
+            padding-left: 0;
+        }
+
+        .second-individual-card p {
+            line-height: 1.7rem;
+            color: rgba(0, 0, 0, 0.6);
+        }
+
+        .fourth-page-cards{
+            display: grid;
+            grid-template-columns: 1fr;
+            padding: 5rem;
+            justify-content: center;
+            gap: 2rem;
+            padding-top: 0;
+        }
+        .contact-info{
+            padding: 2rem;
+            border-radius: 1rem;
+            background-color: #2463eb;
+            color: white;
+        }
+        .contact-info div{
+            display: grid;
+            grid-template-columns: 1fr 7fr;
+            row-gap: 1rem;
+        }
+        .contact-form{
+            border-radius: 1rem;
+            padding: 2rem;
+            
+            background-color: rgb(244, 244, 244);
+        }
+        form{
+            font-weight: bold;
+        }
+        input{
+            width: 100%;
+            padding: 0.5rem;
+            margin-left: 0.3rem;
+            margin-bottom: 0.9rem;
+            margin-top: 0.4rem;
+        }
+        textarea{
+            margin-top: 0.4rem;
+            padding: 0.5rem;
+            width: 100%;
+            margin-left: 0.3rem;
+            margin-bottom: 0.9rem;
+            resize:vertical ;
+            max-height: 20rem;
+            min-height: 5rem;
+        }
+        select{
+            margin-top: 0.4rem;
+            margin-bottom: 0.9rem;
+            padding: 0.5rem;
+            width: 100%;
+            
+            margin-left: 0.3rem;
+
+        }
+        input[type='checkbox']{
+            width: fit-content;
+            margin-left: 0;
+        }
+        input[type='submit']{
+            margin-left: 0;
+            margin-bottom: 0;
+            background-color: #2463eb;
+            border: none;
+            color: white;
+            border-radius: 0.2rem;
+            cursor: pointer;
+            
+        }
+        input[type='submit']:hover{
+            background-color: #2d6efc;
+        }
+        
+        @media (min-width:768px) {
+            .first-page-buttons{
+                flex-direction: row;
+                row-gap: 0;
+            }
+            .menu-icon {
+                display: none;
+            }
+
+            .navitem {
+                display: block;
+            }
+
+            .header {
+                padding-right: 10vw;
+            }
+
+            .first-page {
+                padding: 7rem;
+            }
+
+            #heading {
+                font-size: 4rem;
+            }
+            .second-headline h1{
+                font-size: 2rem;
+            }
+            .third-headline h1{
+                font-size: 2rem;
+            }
+            .fourth-headline h1{
+                font-size: 2rem;
+            }
+            .third-page-cards{
+                grid-template-columns: 1fr 1fr;
+            }
+            .fourth-page-cards{
+                grid-template-columns: 4fr 6fr;
+
+            }
+
+        }
+
+        @media (min-width: 1024px){
+            .third-page-cards{
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+        }
+        #logo-padding{
+            padding-top: 0;
+            padding-bottom: 0;
+        }
