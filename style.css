@@ -185,6 +185,8 @@
             align-self: center;
             font-size: 0.8rem;
             color: rgba(0, 0, 0, 0.7);
+            padding-right: 1rem;
+
         }
         .second-individual-card {
             box-shadow: 0px 0px 5px lightgray;
@@ -333,3 +335,4 @@
             padding-top: 0;
             padding-bottom: 0;
         }
+
