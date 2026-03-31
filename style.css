@@ -148,7 +148,7 @@
             padding: 4rem;
             display: flex;
             padding-top: 0;
-            justify-content: space-evenly;
+            justify-content: center;
             align-content: space-evenly;
             gap: 2rem;
             row-gap: 3rem;
