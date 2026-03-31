@@ -170,7 +170,8 @@
             display: grid;
             background-color: #f9fafb;
             grid-template-columns: 3fr 7fr;
-            width: 20rem;
+            width: 80%;
+            height: 65px;
             gap: 1.5rem;
             justify-self: center;
             border-radius: 0.7rem;
