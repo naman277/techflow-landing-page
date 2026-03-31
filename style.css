@@ -169,10 +169,10 @@
             border-left: 0.25rem solid #1b58ea;
             display: grid;
             background-color: #f9fafb;
-            grid-template-columns: 3fr 7fr;
+            grid-template-columns: 116px 1fr;
             width: 80%;
             height: 65px;
-            gap: 1.5rem;
+            gap: 1rem;
             justify-self: center;
             border-radius: 0.7rem;
         }
